@@ -4,6 +4,8 @@ It is intended to be used with [NSwag](https://github.com/RicoSuter/NSwag) to ge
 code for ASP.NET Core web APIs that properly round-trips C# record hierarchies to and from JSON.
 
 ## Usage
+Installation is via [the `JsonPolymorph` NuGet package](https://www.nuget.org/packages/JsonPolymorph/).
+
 A simple example:
 ```csharp
 [JsonHierarchyBase]
