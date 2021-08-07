@@ -11,17 +11,18 @@
     <PackageProjectUrl>https://github.com/LarsKemmann/JsonPolymorph</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>json asp.net</PackageTags>
-    <PackageReleaseNotes>1.0.0 is the initial public release of this library.</PackageReleaseNotes>
+    <PackageReleaseNotes>1.0.1 downgrades Newtonsoft.Json for compatibility.</PackageReleaseNotes>
     <PackageId>JsonPolymorph</PackageId>
     <Product>JsonPolymorph</Product>
     <Copyright>© 2021 Lars Kemmann</Copyright>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="3.9.0" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="3.10.0" PrivateAssets="all" />
     <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.2" PrivateAssets="all" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="NJsonSchema" Version="10.4.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="NJsonSchema" Version="10.5.2" />
   </ItemGroup>
 
   <ItemGroup>
